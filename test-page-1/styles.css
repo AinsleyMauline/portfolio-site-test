@@ -1,225 +1,15 @@
-@keyframes move {
-    100% {
-        transform: translate3d(0, 0, 1px) rotate(360deg);
-    }
-}
-
-.background {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background: #0e2223;
-    overflow: hidden;
-    z-index: -1; /* Ensure the background is behind other content */
-}
-
-.background span {
-    width: 32vmin;
-    height: 32vmin;
-    border-radius: 32vmin;
-    backface-visibility: hidden;
-    position: absolute;
-    animation: move;
-    animation-duration: 29;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-.background span:nth-child(0) {
-    color: #b2ced1;
-    top: 96%;
-    left: 51%;
-    animation-duration: 204s;
-    animation-delay: -159s;
-    transform-origin: 25vw -9vh;
-    box-shadow: -64vmin 0 8.545628455472153vmin currentColor;
-}
-.background span:nth-child(1) {
-    color: #953570;
-    top: 7%;
-    left: 91%;
-    animation-duration: 19s;
-    animation-delay: -157s;
-    transform-origin: 13vw 8vh;
-    box-shadow: -64vmin 0 8.59183341340765vmin currentColor;
-}
-.background span:nth-child(2) {
-    color: #d8acc6;
-    top: 3%;
-    left: 57%;
-    animation-duration: 84s;
-    animation-delay: -196s;
-    transform-origin: -9vw 3vh;
-    box-shadow: -64vmin 0 8.550336871648547vmin currentColor;
-}
-.background span:nth-child(3) {
-    color: #d8acc6;
-    top: 56%;
-    left: 92%;
-    animation-duration: 77s;
-    animation-delay: -34s;
-    transform-origin: 21vw -9vh;
-    box-shadow: 64vmin 0 8.026706188690637vmin currentColor;
-}
-.background span:nth-child(4) {
-    color: #b2ced1;
-    top: 22%;
-    left: 76%;
-    animation-duration: 15s;
-    animation-delay: -149s;
-    transform-origin: 0vw 12vh;
-    box-shadow: 64vmin 0 8.721574127377496vmin currentColor;
-}
-.background span:nth-child(5) {
-    color: #953570;
-    top: 38%;
-    left: 76%;
-    animation-duration: 202s;
-    animation-delay: -14s;
-    transform-origin: 22vw 13vh;
-    box-shadow: 64vmin 0 8.400488410639861vmin currentColor;
-}
-.background span:nth-child(6) {
-    color: #b2ced1;
-    top: 53%;
-    left: 83%;
-    animation-duration: 40s;
-    animation-delay: -85s;
-    transform-origin: 3vw -1vh;
-    box-shadow: -64vmin 0 8.328203397628124vmin currentColor;
-}
-.background span:nth-child(7) {
-    color: #953570;
-    top: 58%;
-    left: 46%;
-    animation-duration: 215s;
-    animation-delay: -17s;
-    transform-origin: 11vw -3vh;
-    box-shadow: -64vmin 0 8.919166110788513vmin currentColor;
-}
-.background span:nth-child(8) {
-    color: #953570;
-    top: 55%;
-    left: 79%;
-    animation-duration: 78s;
-    animation-delay: -197s;
-    transform-origin: 19vw -18vh;
-    box-shadow: 64vmin 0 8.369745686032884vmin currentColor;
-}
-.background span:nth-child(9) {
-    color: #953570;
-    top: 24%;
-    left: 7%;
-    animation-duration: 212s;
-    animation-delay: -78s;
-    transform-origin: 21vw 24vh;
-    box-shadow: 64vmin 0 8.071772462775755vmin currentColor;
-}
-.background span:nth-child(10) {
-    color: #d8acc6;
-    top: 18%;
-    left: 37%;
-    animation-duration: 172s;
-    animation-delay: -12s;
-    transform-origin: -7vw 7vh;
-    box-shadow: 64vmin 0 8.585302756518997vmin currentColor;
-}
-.background span:nth-child(11) {
-    color: #953570;
-    top: 49%;
-    left: 85%;
-    animation-duration: 94s;
-    animation-delay: -98s;
-    transform-origin: 24vw -11vh;
-    box-shadow: 64vmin 0 8.722962382448614vmin currentColor;
-}
-.background span:nth-child(12) {
-    color: #d8acc6;
-    top: 37%;
-    left: 32%;
-    animation-duration: 42s;
-    animation-delay: -187s;
-    transform-origin: -16vw 1vh;
-    box-shadow: 64vmin 0 8.294644817769232vmin currentColor;
-}
-.background span:nth-child(13) {
-    color: #b2ced1;
-    top: 97%;
-    left: 47%;
-    animation-duration: 83s;
-    animation-delay: -74s;
-    transform-origin: 12vw 19vh;
-    box-shadow: 64vmin 0 8.262439984243512vmin currentColor;
-}
-.background span:nth-child(14) {
-    color: #d8acc6;
-    top: 10%;
-    left: 40%;
-    animation-duration: 141s;
-    animation-delay: -160s;
-    transform-origin: -19vw 3vh;
-    box-shadow: 64vmin 0 8.077919187999054vmin currentColor;
-}
-.background span:nth-child(15) {
-    color: #953570;
-    top: 57%;
-    left: 54%;
-    animation-duration: 148s;
-    animation-delay: -16s;
-    transform-origin: -7vw 16vh;
-    box-shadow: 64vmin 0 8.35397372509724vmin currentColor;
-}
-.background span:nth-child(16) {
-    color: #953570;
-    top: 71%;
-    left: 13%;
-    animation-duration: 79s;
-    animation-delay: -66s;
-    transform-origin: 21vw 7vh;
-    box-shadow: -64vmin 0 8.118994038002448vmin currentColor;
-}
-.background span:nth-child(17) {
-    color: #b2ced1;
-    top: 38%;
-    left: 15%;
-    animation-duration: 166s;
-    animation-delay: -133s;
-    transform-origin: -15vw 17vh;
-    box-shadow: 64vmin 0 8.205111716821031vmin currentColor;
-}
-.background span:nth-child(18) {
-    color: #953570;
-    top: 37%;
-    left: 99%;
-    animation-duration: 193s;
-    animation-delay: -32s;
-    transform-origin: 17vw 16vh;
-    box-shadow: -64vmin 0 8.058147083505647vmin currentColor;
-}
-.background span:nth-child(19) {
-    color: #953570;
-    top: 58%;
-    left: 93%;
-    animation-duration: 39s;
-    animation-delay: -26s;
-    transform-origin: -1vw 19vh;
-    box-shadow: -64vmin 0 8.198186467449833vmin currentColor;
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: rgb(178, 206, 209); /* Set the text color to white */
+    color: white; /* Set the text color to white */
     z-index: 1; /* Ensure the body content is above the background */
 }
 
 header {
     background: rgb(55, 77, 79, 0.5);
-    color: rgb(178, 206, 209);
+    color: white;
     padding: 15px;
     text-align: center;
     z-index: 2; /* Ensure the header is above the background */
@@ -269,5 +59,15 @@ button {
 
 button:hover {
     background: rgb(55, 77, 79);
+}
+
+/* Apply Cinzel font to all header elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+}
+
+/* Apply Raleway font to all paragraph elements */
+p {
+    font-family: 'Raleway', sans-serif;
 }
 
