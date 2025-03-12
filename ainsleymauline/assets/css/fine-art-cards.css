@@ -6,7 +6,7 @@ body {
   font-family: "Raleway";
   font-size: 14px;
   font-weight: 500;
-  background-color: #BCAAA4;
+  background-color:#b2ced1;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -14,7 +14,7 @@ body {
   font-family: "Raleway";
   font-size: 24px;
   font-weight: 700;
-  color: #5D4037;
+  color: #b2ced1;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ h1+p, p+p {
   padding: 20px;
   position: absolute;
   bottom: 0;
-  color: #fff;
+  color: #b2ced1;
   transform: translateY(40%);
   transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   
